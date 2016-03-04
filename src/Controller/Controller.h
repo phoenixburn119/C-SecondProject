@@ -8,6 +8,8 @@
 #ifndef SRC_CONTROLLER_CONTROLLER_H_
 #define SRC_CONTROLLER_CONTROLLER_H_
 
+using namespace std;
+
 class Controller
 {
 private:
@@ -17,6 +19,8 @@ public:
 	void setClassCount(int classCount);
 	int getClassCount();
 	void start();
+	string getClassName();
+	void setClassName(string className);
 };
 
 
